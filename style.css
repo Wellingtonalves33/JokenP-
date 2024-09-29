@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://picsum.photos/1600/900);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.Caixa-01{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+   flex-direction: column; 
+   align-items: center;
+   justify-content: center;
+}
+.caixa-button{
+    margin: 30px;
+    display: flex;
+    gap: 40px;
+}
+button{
+    padding: 10px;
+    font-size: 50px;
+    border:none ;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+button:hover{
+    opacity: 0.7;
+    
+}
+#pedra{
+background-color: blue;
+}
+#papel{
+background-color: red;
+}
+#tesoura{
+background-color: #000000;
+}
+p{
+    font-weight: bolder;
+margin-bottom: 10px;
+}
+.sua-potuaçao span{
+    color: rgb(0, 0, 0);
+}
+.potuação-do-tiao span{
+    color: rgb(219, 28, 28);
+}
